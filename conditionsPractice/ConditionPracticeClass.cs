@@ -14,7 +14,7 @@ namespace conditionsPractice
         /* TODO: Receives a string as input and returns true if the string contains only unique characters, false otherwise. */
         public static bool HasUniqueCharacters(string input)
         {
-            throw new NotImplementedException();
+            return true;
         }
 
         /* TODO: Receives an integer as input and returns true if the number is divisible by both 5 and 7, excluding zero, false otherwise. */

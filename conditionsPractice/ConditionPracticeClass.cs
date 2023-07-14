@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace conditionsPractice
 {
@@ -8,13 +9,13 @@ namespace conditionsPractice
         The method must return a boolean value, depending on whether the input parameter is even or odd*/
         public static bool IsEven(int number)
         {
-            throw new NotImplementedException();
+            return number % 2 == 0;
         }
 
-        /* TODO: Receives a string as input and returns true if the string contains only unique characters, false otherwise. */
+        /* TODO: Receives a string as input and returns true if the stringvs contains only unique characters, false otherwise. */
         public static bool HasUniqueCharacters(string input)
         {
-            throw new NotImplementedException();
+            return input.Distinct().Count() == input.Length;
         }
 
         /* TODO: Receives an integer as input and returns true if the number is divisible by both 5 and 7, excluding zero, false otherwise. */

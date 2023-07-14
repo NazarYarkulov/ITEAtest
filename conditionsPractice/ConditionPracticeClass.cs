@@ -21,7 +21,7 @@ namespace conditionsPractice
         /* TODO: Receives an integer as input and returns true if the number is divisible by both 5 and 7, excluding zero, false otherwise. */
         public static bool IsDivisibleBy5And7(int number)
         {
-            throw new NotImplementedException();
+            return number % 35 == 0 && number != 0;
         }
 
         /* TODO: Performs the specified arithmetic operation (char input paramether) on two double input paramethers and returns the result. */
